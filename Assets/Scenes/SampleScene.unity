@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 117720002}
   m_Layer: 0
   m_Name: Cliff2_Minifantasy_ForgottenPlainsTiles_193 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 1004805286}
   m_Layer: 0
   m_Name: HillDiagonal10_Minifantasy_ForgottenPlainsTiles_64
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -723,7 +723,7 @@ GameObject:
   - component: {fileID: 1206827245}
   m_Layer: 0
   m_Name: HillDiagonal10_Minifantasy_ForgottenPlainsTiles_64 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1136,7 +1136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d6152bdd0be5d4e8838d38a4cca701, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 5
   jumpForce: 5
   gravityScale: 1
   fallingGravityScale: 1
@@ -1182,7 +1182,7 @@ GameObject:
   - component: {fileID: 1840881460}
   m_Layer: 0
   m_Name: Cliff2_Minifantasy_ForgottenPlainsTiles_193
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

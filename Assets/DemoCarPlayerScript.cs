@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DemoCarPlayerScript : MonoBehaviour
 {
-    public float speed = 80f;
-    public float jumpForce = 5.0f;
+    public float speed = 10f;
+    public float jumpForce = 10f;
 
     public float gravityScale = 1;
     public float fallingGravityScale = 1;
@@ -60,16 +60,17 @@ public class DemoCarPlayerScript : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionStay2D(Collision2D collision)
     {
-        Debug.Log("Entered");
-        isGrounded = true;
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+        }
     }
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        Debug.Log("Exited");
-        if (rb.velocity.y != 0)
+        if (collision.gameObject.tag == "Ground")
         {
             isGrounded = false;
         }
